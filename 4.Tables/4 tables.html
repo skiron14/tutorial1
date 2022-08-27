@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TABLES</title>
+    <style>
+      table,
+      th,
+      td {
+        border: 2px solid blue;
+        border-collapse: collapse;
+        text-align: center;
+      }
+      th,
+      td {
+        padding: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Col Span</h2>
+    <table style="width: 100%">
+      <tr>
+        <th colspan="2">1. Name</th>
+
+        <th>2. Age</th>
+      </tr>
+      <tr>
+        <td>Jill</td>
+        <td>Smith</td>
+        <td>43</td>
+      </tr>
+      <tr>
+        <td>Eve</td>
+        <td>Jackson</td>
+        <td>57</td>
+      </tr>
+    </table>
+
+    <h2>Row Span</h2>
+    <table style="width: 100%">
+      <tr>
+        <th>Name</th>
+        <td>John Doe</td>
+      </tr>
+      <tr>
+        <th rowspan="3">Phone</th>
+        <td>555-1234</td>
+      </tr>
+      <tr>
+        <td>555-8745</td>
+      </tr>
+      <tr>
+        <td>555-8746</td>
+      </tr>
+    </table>
+  </body>
+</html>
